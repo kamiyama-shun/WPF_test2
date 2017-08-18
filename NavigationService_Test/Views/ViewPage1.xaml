@@ -1,0 +1,16 @@
+﻿<Page x:Class="NavigationService_Test.Views.ViewPage1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NavigationService_Test.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="ViewPage1">
+
+    <Grid Background="#FF99BF7F">
+        <TextBlock HorizontalAlignment="Left" Margin="20,20,0,0" TextWrapping="Wrap"
+                   Text="【1ページ】 " VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="49" Margin="124,74,0,0" VerticalAlignment="Top" Width="105"/>
+    </Grid>
+</Page>
